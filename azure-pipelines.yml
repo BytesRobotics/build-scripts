@@ -12,7 +12,7 @@ pool:
 steps:
 - script: ./build-cv4.sh
   displayName: 'Build CV4'
-- task: PublishBuildArtifcats@1
+- task: PublishBuildArtifacts@1
   inputs:
     pathToPublish: ~/cv4/
     artifactName: CV4
