@@ -25,9 +25,9 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
   -D OPENCV_ENABLE_NONFREE=ON \
   -D OPENCV_EXTRA_MODULES_PATH=../opencv_contrib/modules ..
 make -j4
-mkdir cv4
-mv opencv cv4/
-mv opencv_contrib cv4/
+mkdir ~/cv4
+mv ~/opencv ~/cv4/
+mv ~/opencv_contrib ~/cv4/
 
 #sudo make install
 #sudo ldconfig
