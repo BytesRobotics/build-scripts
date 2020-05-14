@@ -10,10 +10,9 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+- script: ./build-cv4.sh
+  displayName: 'Build CV4'
+- task: PublishBuildArtifcats@1
+  inputs:
+    pathToPublish: ~/cv4/
+    artifactName: CV4
