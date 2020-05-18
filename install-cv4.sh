@@ -3,7 +3,7 @@ sudo apt-get -q install unzip
 echo "------------------------------------------------------"
 echo "GETTING ZIPPED BINARIES"
 echo "------------------------------------------------------"
-curl -L -o cv4-nano.zip https://brbinaries.blob.core.windows.net/cv4/cv4.zip
+curl -o cv4-nano.zip https://brbinaries.blob.core.windows.net/cv4/cv4.zip
 echo "------------------------------------------------------"
 echo "Unzipping"
 echo "------------------------------------------------------"
