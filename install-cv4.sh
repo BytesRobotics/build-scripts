@@ -7,7 +7,7 @@ curl -o cv4-nano.zip https://brbinaries.blob.core.windows.net/cv4/cv4.zip
 echo "------------------------------------------------------"
 echo "Unzipping"
 echo "------------------------------------------------------"
-unzip -q ./cv4-nano.zip
+unzip ./cv4-nano.zip
 sudo mv ./cv4/* /usr/include
 echo "------------------------------------------------------"
 echo "Configuring"
